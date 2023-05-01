@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- ### Tags de formulários -->
+
+  <!-- Formulário -->
+  <form method="GET" action="/form.php">
+
+    <!-- Texto curto -->
+    <label for="text">Texto:</label>
+    <input type="text" id="text" name="text" value="Texto curto">
+
+    <br/>
+
+    <!-- Texto longo -->
+    <label for="textarea">Área de texto longo:</label>
+    <textarea id="textarea" name="textarea" rows="4" value="Texto longo"></textarea>
+
+    <br/>
+
+    <!-- E-mail -->
+    <label for="email">Endereço de e-mail:</label>
+    <input type="email" id="email" name="email" placeholder="nome@dominio.com">
+
+    <br/>
+
+    <!-- Número -->
+    <label for="number">Número (entre 1 e 5):</label>
+    <input type="number" id="number" name="number" min="1" max="5">
+
+    <br/>
+
+    <!-- Telefone -->
+    <label for="phone">Número de telefone:</label>
+    <input type="tel" id="phone" name="phone">
+
+    <br/>
+
+    <!-- Senha -->
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password">
+
+    <br/>
+
+    <!-- URL -->
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url">
+
+    <br/>
+
+    <!-- Busca -->
+    <label for="search">Buscar:</label>
+    <input type="search" id="search" name="search">
+
+    <br/>
+
+    <!-- Oculto -->
+    <label for="hidden">Oculto:</label>
+    <input type="hidden" id="hidden" name="hidden" value="123456">
+
+    <br/>
+
+    <!-- Arquivo -->
+    <label for="file">Selecione um arquivo:</label>
+    <input type="file" id="file" name="file">
+
+    <br/>
+
+    <!-- Data -->
+    <label for="date">Data:</label>
+    <input type="date" id="date" name="date">
+
+    <br/>
+
+    <!-- Hora -->
+    <label for="time">Hora:</label>
+    <input type="time" id="time" name="time">
+
+    <br/>
+
+    <!-- Data e hora -->
+    <label for="datetime">Data e hora:</label>
+    <input type="datetime-local" id="datetime" name="datetime">
+
+    <br/>
+
+    <!-- Semana -->
+    <label for="week">Semana:</label>
+    <input type="week" id="week" name="week">
+
+    <br/>
+
+    <!-- Mês -->
+    <label for="month">Mês:</label>
+    <input type="month" id="month" name="month">
+
+    <br/>
+
+    <!-- Cor -->
+    <label for="color">Cor:</label>
+    <input type="color" id="color" name="color"><br/>
+
+    <br/>
+
+    <!-- Faixa -->
+    <label for="range">Faixa (entre 0 e 50):</label>
+    <input type="range" id="range" name="range" min="0" max="50"><br/>
+
+    <br/>
+
+    <!-- Checkbox -->
+    <fieldset>
+      <p>Selecione uma ou mais opções:</p>
+      <div>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="1">
+        <label for="checkbox1">Opção 1</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="2">
+        <label for="checkbox2">Opção 2</label>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox3" name="checkbox3" value="3">
+        <label for="checkbox3">Opção 3</label>
+      </div>
+    </fieldset>
+
+    <br/>
+
+    <!-- Radio -->
+    <fieldset>
+      <p>Selecione uma opção:</p>
+      <div>
+        <input type="radio" id="radio1" name="radio" value="1">
+        <label for="radio1">Opção 1</label>
+      </div>
+      <div>
+        <input type="radio" id="radio2" name="radio" value="2">
+        <label for="radio2">Opção 2</label>
+      </div>
+      <div>
+        <input type="radio" id="radio3" name="radio" value="3">
+        <label for="radio3">Opção 3</label>
+      </div>
+    </fieldset>
+
+    <br/>
+
+    <!-- Seletor -->
+    <label for="select1">Selecione uma opção:</label>
+    <select id="select1" name="select1">
+      <option value="0" selected disabled></option>
+      <option value="1">Opção 1</option>
+      <option value="2">Opção 2</option>
+      <option value="3">Opção 3</option>
+      <option value="4">Opção 4</option>
+      <option value="5">Opção 5</option>
+    </select>
+
+    <br/>
+
+    <!-- Seletor agrupado -->
+    <label for="select2">Selecione uma opção:</label>
+    <select id="select2" name="select2">
+      <optgroup label="Grupo 1">
+        <option value="1">Opção 1</option>
+        <option value="2">Opção 2</option>
+      </optgroup>
+      <optgroup label="Grupo 2">
+        <option value="3">Opção 3</option>
+        <option value="4">Opção 4</option>
+        <option value="5">Opção 5</option>
+      </optgroup>
+    </select>
+
+    <br/>
+
+    <!-- Seletor múltiplo -->
+    <label for="select3">Selecione várias opções:</label>
+    <select multiple id="select3" name="select3">
+      <option value="1">Opção 1</option>
+      <option value="2">Opção 2</option>
+      <option value="3">Opção 3</option>
+      <option value="4">Opção 4</option>
+      <option value="5">Opção 5</option>
+    </select>
+
+    <br/>
+
+    <!-- Submit -->
+    <input type="submit" value="Enviar o formulário">
+
+    <button type="submit">Enviar o formulário (botão)</button>
+
+    <br/>
+
+    <!-- Reset -->
+    <input type="reset" value="Resetar o formulário">
+
+    <button type="reset">Resetar o formulário (botão)</button>
+
+  </form>
+
+</body>
+</html>
