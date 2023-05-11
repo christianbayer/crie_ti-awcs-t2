@@ -1,0 +1,35 @@
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+}
+
+.button--blue {
+  background-color: blue;
+}
+
+.button--green {
+  background-color: green;
+}
+
+.button--orange {
+  background-color: orange;
+}
+
+.button--small {
+  height: 36px;
+  border-radius: 4px;
+}
+
+.button--medium {
+  height: 42px;
+  border-radius: 8px;
+}
+
+.button--large {
+  height: 56px;
+  border-radius: 16px;
+}
