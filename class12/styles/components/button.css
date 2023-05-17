@@ -1,0 +1,17 @@
+.button {
+  height: 40px;
+  padding: 10px 24px;
+  color: #FFFFFF;
+  background-color: #F41B3B;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+}
+
+.button--large {
+  height: 60px;
+  padding: 20px 40px;
+}
