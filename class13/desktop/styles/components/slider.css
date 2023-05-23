@@ -1,0 +1,47 @@
+.slider {
+  margin: 40px 0 90px 0;
+}
+
+.slider__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 64px;
+  margin-bottom: 40px;
+}
+
+.slider__title {
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -1.5px;
+}
+
+.slider__more {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.slider__more svg {
+  fill: #F41B3B;
+  margin-left: 8px;
+}
+
+.slider__track {
+  display: flex;
+  overflow: scroll hidden;
+  padding: 0 56px;
+  scrollbar-width: none;
+}
+
+.slider__track::-webkit-scrollbar {
+  display: none;
+}
+
+.slider__track .cover {
+  margin: 0 8px;
+}

@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Questrial', sans-serif;
+  font-size: 16px;
+  background-color: #0A070B;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}

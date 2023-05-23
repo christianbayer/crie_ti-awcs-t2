@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 40px 64px;
+  position: absolute;
+}
+
+.header__logo {
+  width: 170px;
+  margin-right: 64px;
+}
+
+.header__menu {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.header__menu__item {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 24px;
+  color: #807E81;
+}
+
+.header__menu__item svg {
+  margin-right: 8px;
+  fill: #807E81;
+}
+
+.header__menu__item--active {
+  color: #FFFFFF;
+}
+
+.header__menu__item--active svg {
+  fill: #FFFFFF;
+}

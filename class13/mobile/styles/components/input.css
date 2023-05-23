@@ -1,0 +1,23 @@
+.input {
+  height: 60px;
+  width: 500px;
+  min-width: 120px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  padding: 20px 24px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input::placeholder {
+  font-family: 'Questrial', sans-serif;
+  color: #807E81;
+}
+
+@media (max-width: 480px) {
+  .input {
+    height: 48px;
+    padding: 14px 20px;
+  }
+}
